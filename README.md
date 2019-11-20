@@ -1,15 +1,12 @@
 # tree2dir
 Facilitates accessing files in a tree structure from a single directory, when the files have identical names.
 
-USAGE: 
-        tree2dir <path_list>
+USAGE: tree2dir <path_list>
 
-OUTPUT: 
-        for each path in path list, generates a symbolic link to path in current directory
-        the symbolic link name is identical to path, with "/" replaced with "_"
+OUTPUT:  for each path in path list, generates a symbolic link to path in current directory
+         the symbolic link name is identical to path, with "/" replaced with "_"
         
-AUTHOR: 
-        Oren Civier 
+AUTHOR: Oren Civier 
        
 EXAMPLES: 
 
