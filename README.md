@@ -8,12 +8,20 @@ OUTPUT: for each path in path list, generate a symbolic link to path in current 
         
 AUTHOR: Oren Civier 
        
-EXAMPLE: 
-tree2dir a/1.txt a/b/2.txt
+EXAMPLES: 
+
+1)
+
+tree2dir dira/1.txt dira/dirb/2.txt
 
 will create two symbolic links in the current directory:
 
-a_1.txt pointing to a/1.txt
+dira_1.txt pointing to dira/1.txt
 
-a_b_2.txt pointing to a/b/2.txt         
-       
+dira_dirb_2.txt pointing to dira/dirb/2.txt
+
+2)
+
+tree2dir `find /dira -name 1.txt`
+
+will create symbolic links to all the files named 1.txt in the tree below the directory /dira
