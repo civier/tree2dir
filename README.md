@@ -28,6 +28,6 @@ will create symbolic links in the current directory, to all the files named 1.tx
 
 3)
 
-treedir $(find /dira)
+tree2dir $(find /dira)
 
 will create symbolic links in the current directory, to all the files in the tree below /dira
