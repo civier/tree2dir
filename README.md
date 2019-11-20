@@ -13,13 +13,10 @@ EXAMPLES:
 
 1)
 
-tree2dir dira/1.txt dira/dirb/2.txt
-
-will create two symbolic links in the current directory:
-
-dira_1.txt pointing to dira/1.txt
-
-dira_dirb_2.txt pointing to dira/dirb/2.txt
+        tree2dir dira/1.txt dira/dirb/2.txt
+        will create two symbolic links in the current directory:
+        dira_1.txt pointing to dira/1.txt
+        dira_dirb_2.txt pointing to dira/dirb/2.txt
 
 2)
 
