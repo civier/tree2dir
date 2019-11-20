@@ -3,7 +3,8 @@ Facilitates accessing files in a tree structure from a single directory, when th
 
 USAGE: tree2dir <path_list>
 
-OUTPUT: for each path in path list, generate a symbolic link to path in current directory
+OUTPUT: for each path in path list, generates a symbolic link to path in current directory
+
         the symbolic link name is identical to path, with "/" replaced with "_"
         
 AUTHOR: Oren Civier 
