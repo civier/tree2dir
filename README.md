@@ -10,7 +10,10 @@ AUTHOR: Oren Civier
        
 EXAMPLE: 
 tree2dir a/1.txt a/b/2.txt
+
 will create two symbolic links in the current directory:
+
 a_1.txt pointing to a/1.txt
+
 a_b_2.txt pointing to a/b/2.txt         
        
