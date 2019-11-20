@@ -1,5 +1,5 @@
 # tree2dir
-Facilitate accessing files in a tree structure from a single directory
+Facilitates accessing files in a tree structure from a single directory
 
 USAGE: tree2dir <path_list>
 
