@@ -22,6 +22,6 @@ dira_dirb_2.txt pointing to dira/dirb/2.txt
 
 2)
 
-tree2dir `find /dira -name 1.txt`
+tree2dir $(find /dira -name 1.txt)
 
 will create symbolic links to all the files named 1.txt in the tree below the directory /dira
