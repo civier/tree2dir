@@ -1,5 +1,5 @@
 # tree2dir
-Facilitates accessing files in a tree structure from a single directory, especially when the files have identical names.
+Facilitates accessing files in a tree structure from a single directory, especially when the files have identical names or when information on the location in the tree needs to be preserved.
 
 USAGE: tree2dir <path_list>
 
