@@ -1,5 +1,5 @@
 # tree2dir
-Facilitates accessing files in a tree structure from a single directory, especially when the files have identical names or when information on the location in the tree needs to be preserved. Useful in conjunction with rsync in order to only copy certain files from a server.
+Facilitates accessing files in a tree structure from a single directory, especially when the files have identical names or when information on the location in the tree needs to be preserved. Useful in conjunction with rsync in order to only copy certain files from a server (one can see what files are to be copied before running rsync).
 
 USAGE: tree2dir <path_list>
 
