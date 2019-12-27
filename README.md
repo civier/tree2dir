@@ -1,5 +1,5 @@
 # tree2dir
-Facilitates accessing files in a tree structure from a single directory, especially when the files have identical names or when information on the location in the tree needs to be preserved. Useful in conjunction with rsync in order to only copy certain files from a server (one can see what files are to be copied before running rsync with the --include and --exclude options).
+Facilitates accessing files in a tree structure from a single directory, especially when the files have identical names or when information on the location in the tree needs to be preserved. Useful in conjunction with rsync in order to only copy certain files from a server (one can see what files are to be copied before running rsync)
 
 USAGE: tree2dir <path_list>
 
@@ -8,7 +8,7 @@ OUTPUT:
          For each path in path list, generates a symbolic link to path in current directory.
          The symbolic link name is identical to path, with "/" replaced with "_".
          
-         When using rsync subsequently: use the --copy-links option to instruct rsync to copy the files the symbolic links are
+         When using rsync subsequently: use the --copy-links options to instruct rsync to copy the files the symbolic links are
          pointing to rather than the symbolic links themselves.
         
 AUTHOR:   Oren Civier 
