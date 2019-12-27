@@ -9,7 +9,8 @@ OUTPUT:
          The symbolic link name is identical to path, with "/" replaced with "_".
          
          When using rsync subsequently: use the --copy-links options to instruct rsync to copy the files the symbolic links are
-         pointing to rather than the symbolic links themselves.
+         pointing to rather than the symbolic links themselves (for other approaches, see the --files-from and -vv options for
+         rsync)
         
 AUTHOR:   Oren Civier 
        
